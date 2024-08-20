@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->    <title class>Clock</title>
+    <style>
+        header{
+            /* background-color: aquamarine;
+            text-align: center;
+            color: black; */
+        }
+        body{
+            background-color: white;
+            color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color:black;
+            /* border-radius: 10px; */
+            border-radius: 20px;
+            border-color: blue;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            overflow: hidden;
+            padding: 10px 15px;
+            height: 200px;
+            text-align: center;
+            align-items: center;
+            align-self: center;
+            /* font-family: Arial, sans-serif; */
+        }
+        .cardTitle{
+            color:rosybrown;
+        }
+        .cardBody{
+            color:greenyellow;
+            font-size: 60px;
+        }
+    </style>
+    <header>
+        <!-- <h1>Digital Clock</h1> -->
+    </header>
+    <body>
+        <div class="card">
+            <h1 class="cardTitle">Clock</h1>
+            
+            <h1 class="cardBody"><div id="currTime"></div></h1>
+        </div>
+        <script src = 'func.js'></script>
+    </body>
+
+</head>
+</html>
